@@ -1,0 +1,68 @@
+[
+  {
+    "iteration": 1,
+    "n_features": 13,
+    "f1_score": 0.7894736842105263,
+    "features": [
+      "ca_0.0",
+      "ca_1.0",
+      "cp_asymptomatic",
+      "cp_atypical angina",
+      "cp_non-anginal",
+      "exang_True",
+      "oldpeak",
+      "sex_Female",
+      "sex_Male",
+      "slope_upsloping",
+      "thal_normal",
+      "thal_reversable defect",
+      "thalch"
+    ],
+    "mean_abs_shap": {
+      "ca_0.0": 0.44616296887397766,
+      "ca_1.0": 0.013988884165883064,
+      "cp_asymptomatic": 0.6334790587425232,
+      "cp_atypical angina": 0.004059943836182356,
+      "cp_non-anginal": 0.030419444665312767,
+      "exang_True": 0.06326348334550858,
+      "oldpeak": 0.17700791358947754,
+      "sex_Female": 0.11315995454788208,
+      "sex_Male": 0.0,
+      "slope_upsloping": 0.07702561467885971,
+      "thal_normal": 0.3055135905742645,
+      "thal_reversable defect": 0.25803014636039734,
+      "thalch": 0.20173518359661102
+    }
+  },
+  {
+    "iteration": 2,
+    "n_features": 11,
+    "f1_score": 0.7894736842105263,
+    "features": [
+      "ca_0.0",
+      "ca_1.0",
+      "cp_asymptomatic",
+      "cp_non-anginal",
+      "exang_True",
+      "oldpeak",
+      "sex_Female",
+      "slope_upsloping",
+      "thal_normal",
+      "thal_reversable defect",
+      "thalch"
+    ],
+    "mean_abs_shap": {
+      "ca_0.0": 0.444757878780365,
+      "ca_1.0": 0.015009905211627483,
+      "cp_asymptomatic": 0.634725034236908,
+      "cp_non-anginal": 0.03146888315677643,
+      "exang_True": 0.06237345188856125,
+      "oldpeak": 0.17727962136268616,
+      "sex_Female": 0.11371498554944992,
+      "slope_upsloping": 0.07861457765102386,
+      "thal_normal": 0.30557557940483093,
+      "thal_reversable defect": 0.2583923935890198,
+      "thalch": 0.2005922496318817
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "optimal_thresholds": {
+    "DecisionTree": 0.7499999999999997,
+    "LogisticRegression": 0.5799999999999997,
+    "RandomForest": 0.5899999999999997,
+    "XGBoost": 0.5999999999999998
+  },
+  "threshold_results": {
+    "DecisionTree": {
+      "optimal_threshold": 0.7499999999999997,
+      "ext_f1_default_threshold": 0.30666666666666664,
+      "ext_f1_optimal_threshold": 0.3028953229398664,
+      "val_f1_at_optimal": 0.75
+    },
+    "LogisticRegression": {
+      "optimal_threshold": 0.5799999999999997,
+      "ext_f1_default_threshold": 0.7640791476407914,
+      "ext_f1_optimal_threshold": 0.7287319422150883,
+      "val_f1_at_optimal": 0.8695652173913043
+    },
+    "RandomForest": {
+      "optimal_threshold": 0.5899999999999997,
+      "ext_f1_default_threshold": 0.7743813682678311,
+      "ext_f1_optimal_threshold": 0.731629392971246,
+      "val_f1_at_optimal": 0.8444444444444444
+    },
+    "XGBoost": {
+      "optimal_threshold": 0.5999999999999998,
+      "ext_f1_default_threshold": 0.7525325615050651,
+      "ext_f1_optimal_threshold": 0.631578947368421,
+      "val_f1_at_optimal": 0.8181818181818182
+    }
+  }
+}

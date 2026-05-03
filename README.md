@@ -7,7 +7,7 @@ The goal is to assist early diagnosis of heart disease using data-driven predict
 
 ---
 
-## 📄 Abstract (IEEE Style)
+## 📄 Abstract
 Heart disease is a leading cause of mortality worldwide, requiring early and accurate diagnosis for effective treatment. This study proposes a machine learning framework for heart disease prediction using clinical attributes. The pipeline includes data preprocessing, univariate feature filtering, recursive feature elimination with cross-validation (RFECV), and model training using decision tree-based methods. Model performance is evaluated using AUC-ROC, F1-score, confusion matrix, and Brier score for calibration assessment. Additionally, SHAP (SHapley Additive exPlanations) is used to interpret model predictions. Experimental results demonstrate strong predictive performance and generalization across internal and external validation datasets.
 
 ---
@@ -84,7 +84,3 @@ Heart disease is a leading cause of mortality worldwide, requiring early and acc
 - Feature selection improves model stability and performance  
 - SHAP improves interpretability of predictions  
 - Calibration analysis ensures probability reliability  
-
----
-
-## 📁 Repository Structure
